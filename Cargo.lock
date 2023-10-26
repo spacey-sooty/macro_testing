@@ -6,9 +6,9 @@ version = 3
 name = "macro_testing"
 version = "0.1.0"
 dependencies = [
- "proc_macrobrrrr",
+ "proc_macros",
 ]
 
 [[package]]
-name = "proc_macrobrrrr"
+name = "proc_macros"
 version = "0.1.0"

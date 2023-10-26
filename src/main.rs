@@ -15,6 +15,10 @@ macro_rules! map {
     };
 }
 
+trait AnswerFN {
+    fn answer(&self);
+}
+
 fn main() {
     let map = map!([1, 2, 3],["hello", "joe", "mum"]);
     for (key, value) in map {
