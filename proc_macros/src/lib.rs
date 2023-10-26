@@ -6,4 +6,3 @@ use proc_macro::TokenStream;
 pub fn derive_answer_fn(item: TokenStream) -> TokenStream {
     item
 }
-
